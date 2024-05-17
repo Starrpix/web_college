@@ -1,0 +1,81 @@
+.container{
+    background-color: blue;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px ;
+}
+
+.container h1{
+    font-family: cursive;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.sub-container{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    height: 700px;
+}
+
+
+.left-div{
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    background-color: rgb(8, 10, 29);
+    float: left;
+    
+}
+
+.right-div{
+    width: 50%;
+    background-color: rgb(226, 249, 133);
+    float: right;
+    background-image: url(/assignments/Images/starry.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.innerleft1{
+float: left;
+background-color: lightpink;
+width: 30%;
+}
+
+.innerright1{
+    float: right;
+    background-color: rgb(185, 221, 185);
+    width: 70%;
+}
+
+
+.innerright1_container{
+    padding: 5px;
+    background-color: bisque;
+}
+
+.innerright1_container h1{
+    color: blue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img1{
+    border-radius: 100%;
+    width: 100px;
+   
+}
+
+
+h1:not(.innerright1_container h1){
+    color: red;
+}
+
+
+.img1:hover{
+    height: 220px;
+}

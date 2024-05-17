@@ -1,0 +1,32 @@
+.container{
+padding: 50px;
+width: 1000px;
+height: 70px;
+margin-bottom: 200px;
+}
+
+.card{
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(120, 120, 120, 0.205);
+    display: flex;
+    background-image: url(/assignments/Images/starry.png);
+    background-repeat: none;
+    background-size: fill;
+    overflow: hidden;
+}
+
+
+.personal_img{
+    padding: 30px;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    flex: left;
+    border: 3px wheat;
+}
+
+.card h1{
+    flex: right;
+    color: white;
+}

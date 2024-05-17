@@ -1,0 +1,58 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    margin-top: 300px;
+    margin-left: 400px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.h1{
+    font-family: cursive;
+}
+
+
+.box1:hover{
+
+transform: scale(3) rotate(45deg);
+background-image: url(/assignments/Images/starry.png);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow: 3px 4px 2px black;
+}
+
+.box1:hover:after{
+    content: 'Starry Night';
+    transition: 2s ease-in;
+}
+
+.box1::after{
+    content: 'Come here';
+}
+
+
+.box2{
+    width: 100px;
+    height: 160px;
+    background-color: rgb(120, 0, 139);
+    margin-top: 200px;
+    margin-left: 600px;
+    padding: 20px;
+    cursor: pointer; 
+    transition: all 1s ease-in;
+}
+
+
+.box2:hover{
+    transform: rotate(180deg);
+}
+
+
+.box2:hover::after{
+    content: 'Just Rotating';
+    color: white;
+}
