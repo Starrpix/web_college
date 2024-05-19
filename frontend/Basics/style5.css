@@ -1,0 +1,43 @@
+.main-header{
+    width: 100%;
+}
+
+.wrapper{
+margin-left: 15%;
+margin-right:15%;
+display: flex;
+}
+
+.nav-log{
+    flex: left;
+}
+
+.navigation-bar{
+    flex: right;
+    display: flex;
+}
+
+.line-slag{
+    flex-direction: vertical;
+    padding-left: 0%;
+
+}
+
+.navigation-bar ul{
+    flex-direction: vertical;
+    display: flex;
+    padding-left: 0%;
+}
+
+.navigation-bar ul li{
+    flex: start;
+    list-style-type: none;
+    padding-right: 6px;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+}
+
+
+
