@@ -1,0 +1,52 @@
+.wrapper-nav{
+    background-color: rgb(115, 115, 115);
+    background-repeat: none;
+    background-size: cover;
+    height: 150px;
+}
+
+nav{
+    padding-top: 125px;
+    position: absolute;
+    margin-left: -40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li  {
+  
+    color:rgb(255, 255, 255);
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: grey;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: silver;
+}
+
+.container{
+    background-color: rgb(195, 193, 193);
+    height: 800px;
+    display: flex;
+}
+
+aside{
+    background-color: beige;
+    width: 295px;
+    height: 800px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(74, 77, 76);
+}
